@@ -21,7 +21,7 @@ var student = {
         }).then(res => res.json() );
     },
     mapAccom() {
-        return axios.get('http://localhost:3000/student/find/accompanist')
+        return axios.get('http://sd-139380.dedibox.fr:3000/student/find/accompanist')
             .then(response => {
                 return response.data
             })

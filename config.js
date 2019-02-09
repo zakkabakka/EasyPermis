@@ -1,1 +1,1 @@
-apiUrl = "http://localhost:3000";
+apiUrl = "http://sd-139380.dedibox.fr:3000";

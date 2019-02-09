@@ -17,7 +17,7 @@ var login = {
 
     getCurrentUser() {
 
-        return axios.get('http://localhost:3000/login/me')
+        return axios.get('http://sd-139380.dedibox.fr:3000/login/me')
             .then(response => {
                 return response
             })
